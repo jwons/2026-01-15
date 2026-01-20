@@ -10,7 +10,7 @@ import time # I needed this for testing earlier
 @click.command()
 @click.option("--n", type=int, required=True, help="Number for which the square root should be calculated")
 def main(n):
-    print("DEBUG: n is " + str(n)) # TODO: delete this before merging
+   
     
     # Check for negative numbers
     if n < 0:
